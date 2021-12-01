@@ -8,13 +8,8 @@ namespace day01
         {
             var entries = Array.ConvertAll(System.IO.File.ReadAllLines(@"C:\Projects\advent-of-code-2021\day01\input.txt"), int.Parse);
 
-            Console.WriteLine("Hello World!");
-
-            //entries = new int[] { 199, 200, 208, 210, 200, 207, 240, 269, 260, 263 };
-
-            //SolvePartOne(entries);
+            SolvePartOne(entries);
             SolePartTwo(entries);
-
         }
 
         private static void SolePartTwo(int[] readings)
